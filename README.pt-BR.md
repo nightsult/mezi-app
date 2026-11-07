@@ -92,8 +92,8 @@ A Mezi Box roda os apps com nível de integridade baixo, dentro de um *Job Objec
 
 - **"O Windows protegeu o computador".** O instalador ainda não tem assinatura digital, então o Windows pode mostrar esse aviso. Clique em **Mais informações** e depois em **Executar assim mesmo**.
 - **Confira o download.** Cada [versão](../../releases) mostra o SHA-256 do instalador. No PowerShell: `Get-FileHash .\Mezi-Setup.exe -Algorithm SHA256`
-- **Seus dados ficam no seu PC.** As instâncias ficam na pasta que você escolher. O Mezi não envia os dados dos seus apps para a internet nem envia estatísticas de uso, telemetria ou relatórios de erro. A versão baixada do site consulta o meziapp.net para ver se há atualização ao abrir e a cada 6 horas.
-- **A conta é opcional.** Ela só é necessária para o Pro e a Mezi Box. Leia a [política de privacidade](https://meziapp.net/privacidade).
+- **Seus dados ficam no seu PC.** As instâncias ficam na pasta que você escolher. O Mezi não envia os dados dos seus apps para a internet nem relatórios de erro. Desde a versão 0.4.0, enquanto está aberto e online, ele envia um código aleatório da instalação, a versão e o tempo de uso; dá para desligar em Configurações. A versão baixada do site consulta o meziapp.net para ver se há atualização ao abrir e a cada 6 horas.
+- **A conta é opcional.** Ela é grátis e só é necessária para a Mezi Box, o suporte e o Pro. Leia a [política de privacidade](https://meziapp.net/privacidade).
 - **O código-fonte não é público.** Este repositório guarda as versões e as opiniões públicas.
 
 ## Sugestões e problemas

@@ -92,8 +92,8 @@ Mezi Box runs apps at a low integrity level inside a Windows Job Object. Writes 
 
 - **"Windows protected your PC".** The installer isn't digitally signed yet, so Windows may show this warning. Click **More info** and then **Run anyway**.
 - **Check your download.** Each [release](../../releases) lists the SHA-256 of the installer. In PowerShell: `Get-FileHash .\Mezi-Setup.exe -Algorithm SHA256`
-- **Your data stays on your PC.** Instances live in the folder you choose. Mezi doesn't send your apps' data to the internet and sends no usage statistics, telemetry or error reports. The version from the website checks meziapp.net for updates when it opens and every 6 hours.
-- **The account is optional.** You only need one for Pro and Mezi Box. Read the [privacy policy](https://meziapp.net/en/privacy).
+- **Your data stays on your PC.** Instances live in the folder you choose. Mezi doesn't send your apps' data to the internet or send error reports. Since version 0.4.0, while it's open and online, it sends a random install code, the version and usage time; you can turn this off in Settings. The version from the website checks meziapp.net for updates when it opens and every 6 hours.
+- **The account is optional.** You only need one, free, for Mezi Box, support and Pro. Read the [privacy policy](https://meziapp.net/en/privacy).
 - **The source code isn't public.** This repository holds the releases and public feedback.
 
 ## Feedback
