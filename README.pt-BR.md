@@ -8,7 +8,7 @@
 
 O Mezi abre qualquer aplicativo do Windows em instâncias isoladas. Deixe suas contas pessoal e do trabalho no Claude, no ChatGPT, no Discord ou no VS Code abertas lado a lado, cada uma com seus próprios logins, configurações e cache.
 
-**[Baixar para Windows](https://meziapp.net/downloads/Mezi-Setup.exe)** · [Site](https://meziapp.net/) · [Guias](https://meziapp.net/guias) · [Todas as versões](../../releases) · [English](README.md)
+**[Baixar na Microsoft Store](https://apps.microsoft.com/detail/9N76QS4Q93N6)** · [Instalador (.exe)](https://meziapp.net/downloads/Mezi-Setup.exe) · [Site](https://meziapp.net/) · [Guias](https://meziapp.net/guias) · [Todas as versões](../../releases) · [English](README.md)
 
 [![Última versão](https://img.shields.io/github/v/release/nightsult/mezi-app?label=vers%C3%A3o&color=f97316)](../../releases/latest) ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6) ![8 idiomas](https://img.shields.io/badge/idiomas-8-f97316)
 
@@ -36,7 +36,7 @@ Com o Mezi, cada instância tem a própria pasta de dados, então ela começa co
 
 ## Como começar
 
-1. [Baixe o Mezi](https://meziapp.net/downloads/Mezi-Setup.exe) e instale (Windows 10 ou 11, 64 bits).
+1. Instale o Mezi pela [Microsoft Store](https://apps.microsoft.com/detail/9N76QS4Q93N6) ou [baixe o instalador](https://meziapp.net/downloads/Mezi-Setup.exe) (Windows 10 ou 11, 64 bits).
 2. Na primeira abertura, escolha a pasta onde as instâncias vão ficar.
 3. Adicione um app: arraste um `.exe` ou um atalho, ou escolha um app instalado.
 4. Clique em **Abrir** e entre na sua outra conta.
@@ -90,7 +90,7 @@ A Mezi Box roda os apps com nível de integridade baixo, dentro de um *Job Objec
 
 ## Segurança e privacidade
 
-- **"O Windows protegeu o computador".** O instalador ainda não tem assinatura digital, então o Windows pode mostrar esse aviso. Clique em **Mais informações** e depois em **Executar assim mesmo**.
+- **"O Windows protegeu o computador".** A versão da Microsoft Store é verificada e assinada pela Microsoft, então não mostra esse aviso. O instalador `.exe` ainda não tem assinatura digital, e o Windows pode mostrar o aviso: clique em **Mais informações** e depois em **Executar assim mesmo**.
 - **Confira o download.** Cada [versão](../../releases) mostra o SHA-256 do instalador. No PowerShell: `Get-FileHash .\Mezi-Setup.exe -Algorithm SHA256`
 - **Seus dados ficam no seu PC.** As instâncias ficam na pasta que você escolher. O Mezi não envia os dados dos seus apps para a internet nem relatórios de erro. Desde a versão 0.4.0, enquanto está aberto e online, ele envia um código aleatório da instalação, a versão e o tempo de uso; dá para desligar em Configurações. A versão baixada do site consulta o meziapp.net para ver se há atualização ao abrir e a cada 6 horas.
 - **A conta é opcional.** Ela é grátis e só é necessária para a Mezi Box, o suporte e o Pro. Leia a [política de privacidade](https://meziapp.net/privacidade).
